@@ -1,7 +1,13 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [],
+    "actions": 
+    [
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode"
+        }
+    ],
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
@@ -20,6 +26,10 @@
         {
             "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "alt+enter"
         }
     ],
     "language": "en-US",
