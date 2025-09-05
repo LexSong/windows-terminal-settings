@@ -2,8 +2,10 @@
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
+    "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
+    "defaultInputScope": "alphanumericHalfWidth",
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "keybindings": 
     [
@@ -20,6 +22,8 @@
             "keys": "alt+shift+d"
         }
     ],
+    "language": "en-US",
+    "launchMode": "maximizedFocus",
     "newTabMenu": 
     [
         {
@@ -46,5 +50,6 @@
         ]
     },
     "schemes": [],
-    "themes": []
+    "themes": [],
+    "windowingBehavior": "useExisting"
 }
