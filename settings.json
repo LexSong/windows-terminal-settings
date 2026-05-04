@@ -42,7 +42,13 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "font": 
+            {
+                "face": "Cascadia Mono NF"
+            }
+        },
         "list": 
         [
             {
