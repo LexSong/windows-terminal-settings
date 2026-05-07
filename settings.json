@@ -12,7 +12,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultInputScope": "alphanumericHalfWidth",
-    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "defaultProfile": "{be3f3bf3-affc-416f-a5d1-c52260d8c964}",
     "keybindings": 
     [
         {
@@ -51,6 +51,15 @@
         },
         "list": 
         [
+            {
+                "closeOnExit": "always",
+                "commandline": "msys2.cmd -ucrt64 -full-path -no-start -shell fish",
+                "guid": "{be3f3bf3-affc-416f-a5d1-c52260d8c964}",
+                "hidden": false,
+                "name": "MSYS2 Fish",
+                "pathTranslationStyle": "msys2",
+                "startingDirectory": "D:\\"
+            },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
