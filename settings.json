@@ -53,7 +53,7 @@
         [
             {
                 "closeOnExit": "always",
-                "commandline": "C:\\Users\\LexSong\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -msys2 -defterm -here -no-start -full-path -shell fish",
+                "commandline": "msys2.cmd -full-path -shell fish",
                 "guid": "{be3f3bf3-affc-416f-a5d1-c52260d8c964}",
                 "hidden": false,
                 "name": "MSYS2 Fish",
