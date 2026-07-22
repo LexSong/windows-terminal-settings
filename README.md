@@ -2,7 +2,7 @@
 
 My personal Windows Terminal settings.
 
-## Setup
+Don't use this repo directly.
 
-Run `link-settings.cmd` as **Administrator** to link these settings to Windows Terminal.
+[windows-setup](https://github.com/LexSong/windows-setup) clones it and symlinks `settings.json` into place.
 
