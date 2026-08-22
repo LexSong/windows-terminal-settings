@@ -6,6 +6,14 @@
         {
             "command": "toggleFocusMode",
             "id": "User.toggleFocusMode"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\n"
+            },
+            "id": "User.sendLineFeed"
         }
     ],
     "centerOnLaunch": true,
@@ -30,6 +38,10 @@
         {
             "id": "User.toggleFocusMode",
             "keys": "alt+enter"
+        },
+        {
+            "id": "User.sendLineFeed",
+            "keys": "shift+enter"
         }
     ],
     "language": "en-US",
