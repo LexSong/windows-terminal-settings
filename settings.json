@@ -14,6 +14,14 @@
                 "input": "\n"
             },
             "id": "User.sendLineFeed"
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u0017"
+            },
+            "id": "User.sendCtrlW"
         }
     ],
     "centerOnLaunch": true,
@@ -42,6 +50,10 @@
         {
             "id": "User.sendLineFeed",
             "keys": "shift+enter"
+        },
+        {
+            "id": "User.sendCtrlW",
+            "keys": "ctrl+backspace"
         }
     ],
     "language": "en-US",
